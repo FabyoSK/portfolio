@@ -1,7 +1,7 @@
 import { ProjectCard } from "../ProjectCard";
 import { Section } from "../Section";
 
-import projects from "../../../data.json";
+import projects from "../../../projects.json";
 
 import styles from "./projects.module.scss";
 

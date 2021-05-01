@@ -1,5 +1,7 @@
 import styles from "./project-card.module.scss";
 
+import { FaLink, FaGithub } from "react-icons/fa";
+
 interface ProjectCardProps {
   project: {
     title: string;
@@ -26,12 +28,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <div className={styles.buttons}>
         <button className={styles.button} type="button">
           <a href={project.github_url} target="_blank"></a>
-          GitHub
+          <FaGithub size={16} color="#fff" /> GitHub
         </button>
         {project.hasWebsite && (
           <button className={styles.button}>
             <a href={project.website} target="_blank"></a>
-            Website
+            <FaLink size={16} color="#fff" /> Website
           </button>
         )}
       </div>

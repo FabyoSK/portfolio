@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Be The Hero",
+    "description": "Be the hero is a project who will help a carity ONG",
+    "techs": ["ReactJS", "Next.js"],
+    "hasWebsite": true,
+    "github_url": "https://github.com/FabyoSK/be-the-hero-web",
+    "website": "http://be-the-hero-fsk.vercel.app/"
+  },
+  {
+    "title": "DT Money",
+    "description": "This applications is an personal finance manager.",
+    "techs": ["React", "MirageJS", "Styled Componensts"],
+    "hasWebsite": true,
+    "github_url": "https://github.com/FabyoSK/dt-money",
+    "website": "http://dt-money.netlify.app/"
+  },
+  {
+    "title": "Podcastr",
+    "description": "Podcastr is a platform built for podcast broadcasting.",
+    "techs": ["ReactJS", "Next.js", "Typescript"],
+    "hasWebsite": true,
+    "github_url": "https://github.com/FabyoSK/podcastr",
+    "website": ""
+  },
+  {
+    "title": "Proffy",
+    "description": "A Online Study Platform",
+    "techs": ["ReactJS", "Typescript"],
+    "hasWebsite": false,
+    "github_url": "https://github.com/FabyoSK/Proffy-NLW2.0",
+    "website": ""
+  },
+  {
+    "title": "AC - Defender",
+    "description": "A simple game made in two weeks on Academia de Código Bootcamp",
+    "techs": ["Java"],
+    "hasWebsite": false,
+    "github_url": "https://github.com/FabyoSK/ac-defender",
+    "website": ""
+  },
+  {
+    "title": "Plant Manager",
+    "description": "A Mobile app to remember you to watering your plants",
+    "techs": ["ReactNative", "Expo"],
+    "hasWebsite": false,
+    "github_url": "https://github.com/FabyoSK/plant-manager",
+    "website": ""
+  },
+  {
+    "title": "Chuva.io Todo",
+    "description": "A Web application made for Chuva.io junior fullstack develop challenge",
+    "techs": ["Reactjs", "Node.js", "Typescript", "Jest", "knex"],
+    "hasWebsite": false,
+    "github_url": "https://github.com/FabyoSK/chuvaio-todo",
+    "website": ""
+  }
+]

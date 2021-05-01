@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./hero.module.scss";
 
+import { FaLinkedinIn, FaGithub, FaDownload } from "react-icons/fa";
 export function Hero() {
   return (
     <div className={styles.hero}>
@@ -12,13 +13,16 @@ export function Hero() {
         <div className={styles.buttons}>
           <button className={styles.button}>
             <a href="https://linkedin.com/in/fabyosk" />
-            LinkedIn
+            <FaLinkedinIn size={16} color="#fff" />
           </button>
           <button className={styles.button}>
             <a href="https://github.com/FabyoSK" />
-            GitHub
+            <FaGithub size={16} color="#fff" />
           </button>
-          <button className={styles.button}>Curriculum</button>
+          <button className={styles.button}>
+            <a href="/cv.pdf" download />
+            <FaDownload size={16} color="#fff" /> Curriculum
+          </button>
         </div>
       </div>
 
