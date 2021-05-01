@@ -7,8 +7,8 @@ interface SectionProps {
 }
 export function Section({ background, children }: SectionProps) {
   return (
-    <div className={background ? styles.container : styles.containerDark}>
+    <section className={background ? styles.container : styles.containerDark}>
       <div className={styles.content}>{children}</div>
-    </div>
+    </section>
   );
 }

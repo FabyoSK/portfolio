@@ -1,0 +1,13 @@
+.footer {
+  background: var(--red);
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: columns;
+
+  a {
+    text-decoration: none;
+    color: var(--text);
+  }
+}
