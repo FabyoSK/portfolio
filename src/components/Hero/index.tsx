@@ -10,8 +10,14 @@ export function Hero() {
         <p>Front-End Developer and Mobile Developer.</p>
 
         <div className={styles.buttons}>
-          <button className={styles.button}>LinkedIn</button>
-          <button className={styles.button}>GitHub</button>
+          <button className={styles.button}>
+            <a href="https://linkedin.com/in/fabyosk" />
+            LinkedIn
+          </button>
+          <button className={styles.button}>
+            <a href="https://github.com/FabyoSK" />
+            GitHub
+          </button>
           <button className={styles.button}>Curriculum</button>
         </div>
       </div>
