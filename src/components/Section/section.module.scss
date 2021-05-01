@@ -1,0 +1,13 @@
+.container {
+  background: var(--foreground);
+  .content {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}
+.containerDark {
+  .content {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}

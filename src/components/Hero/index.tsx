@@ -8,6 +8,12 @@ export function Hero() {
         <p>Hello, i'm </p>
         <h1>Fábio Alves</h1>
         <p>Front-End Developer and Mobile Developer.</p>
+
+        <div className={styles.buttons}>
+          <button className={styles.button}>LinkedIn</button>
+          <button className={styles.button}>GitHub</button>
+          <button className={styles.button}>Curriculum</button>
+        </div>
       </div>
 
       <div className={styles.heroImage}>

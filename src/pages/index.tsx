@@ -1,13 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
+import React from "react";
+import { Section } from "../components/Section";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
+import { About } from "../components/About";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Hero />
+      <About />
     </>
   );
 }

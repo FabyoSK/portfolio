@@ -7,7 +7,7 @@ export function Header() {
         <h1>FabyoSK</h1>
         <ul>
           <li>
-            <a href="/">About Me</a>
+            <a href="/">About me</a>
           </li>
           <li>
             <a href="/">Projects</a>
