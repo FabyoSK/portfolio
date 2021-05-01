@@ -11,3 +11,17 @@
     margin: 5rem auto;
   }
 }
+@media (max-width: 720px) {
+  .container {
+    background: var(--foreground);
+    .content {
+      margin: 5rem 2rem;
+    }
+  }
+
+  .containerDark {
+    .content {
+      margin: 5rem 2rem;
+    }
+  }
+}

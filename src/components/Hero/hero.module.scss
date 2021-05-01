@@ -54,3 +54,18 @@
     margin-right: 5rem;
   }
 }
+@media (max-width: 720px) {
+  .hero {
+    flex-direction: column-reverse;
+    margin: 0 2rem;
+    height: unset;
+
+    .heroImage {
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      margin: 5rem 0;
+    }
+  }
+}
