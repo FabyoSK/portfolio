@@ -1,11 +1,11 @@
-import { ProjectCard } from "../ProjectCard";
-import { Section } from "../Section";
+import Zoom from "react-reveal/Zoom";
 
 import projects from "../../../projects.json";
 
-import styles from "./projects.module.scss";
+import { ProjectCard } from "../ProjectCard";
+import { Section } from "../Section";
 
-import Zoom from "react-reveal/Zoom";
+import styles from "./projects.module.scss";
 
 export function Projects() {
   return (

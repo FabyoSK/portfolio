@@ -1,5 +1,7 @@
 import React from "react";
+
 import { Section } from "../Section";
+
 import styles from "./contact.module.scss";
 
 export function Contact() {

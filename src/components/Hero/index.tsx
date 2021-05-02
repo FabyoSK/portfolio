@@ -1,19 +1,17 @@
 import Image from "next/image";
 
+import { FaDownload, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
 
 import styles from "./hero.module.scss";
 
-import { FaLinkedinIn, FaGithub, FaDownload } from "react-icons/fa";
 export function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.heroInfo}>
-        <p>
-          <Fade left cascade duration={1000}>
-            Hello, i'm
-          </Fade>
-        </p>
+        <Fade left cascade duration={1000}>
+          <p>Hello, i'm</p>
+        </Fade>
 
         <h1>
           <Fade left cascade duration={1000} delay={1000}>
@@ -21,11 +19,9 @@ export function Hero() {
           </Fade>
         </h1>
 
-        <p>
-          <Fade left cascade duration={1000} delay={2000}>
-            Front-End Developer and Mobile Developer.
-          </Fade>
-        </p>
+        <Fade left cascade duration={1000} delay={2000}>
+          <p>Front-End Developer and Mobile Developer.</p>
+        </Fade>
 
         <Fade bottom cascade duration={2000} delay={3000}>
           <div className={styles.buttons}>

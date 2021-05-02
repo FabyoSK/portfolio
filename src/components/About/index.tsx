@@ -1,8 +1,8 @@
-import styles from "./about.module.scss";
+import Zoom from "react-reveal/Zoom";
 
 import { Section } from "../Section";
 
-import Zoom from "react-reveal/Zoom";
+import styles from "./about.module.scss";
 
 export function About() {
   return (

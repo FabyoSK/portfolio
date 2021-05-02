@@ -49,7 +49,7 @@
   },
   {
     "title": "Chuva.io Todo",
-    "description": "A Web application made for Chuva.io junior fullstack develop challenge",
+    "description": "A Web application made for Chuva.io junior fullstack developer challenge",
     "techs": ["Reactjs", "Node.js", "Typescript", "Jest", "knex"],
     "hasWebsite": false,
     "github_url": "https://github.com/FabyoSK/chuvaio-todo",

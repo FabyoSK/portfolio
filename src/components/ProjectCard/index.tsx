@@ -1,6 +1,6 @@
-import styles from "./project-card.module.scss";
+import { FaGithub, FaLink } from "react-icons/fa";
 
-import { FaLink, FaGithub } from "react-icons/fa";
+import styles from "./project-card.module.scss";
 
 interface ProjectCardProps {
   project: {
