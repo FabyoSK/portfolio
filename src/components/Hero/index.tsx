@@ -29,7 +29,7 @@ export function Hero() {
       </div>
 
       <div className={styles.heroImage}>
-        <Image src="/fsk.jpg" width={500} height={500} objectFit="contain" />
+        <Image src="/fsk.jpg" width={500} height={500} objectFit="cover" />
       </div>
     </div>
   );
