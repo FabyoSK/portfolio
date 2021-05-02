@@ -11,3 +11,8 @@
     color: var(--text);
   }
 }
+@media (max-width: 720px) {
+  .footer {
+    padding: 5rem 1rem;
+  }
+}

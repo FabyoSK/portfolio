@@ -14,10 +14,12 @@ export function Hero() {
           <button className={styles.button}>
             <a href="https://linkedin.com/in/fabyosk" />
             <FaLinkedinIn size={16} color="#fff" />
+            <span> Linkedin</span>
           </button>
           <button className={styles.button}>
             <a href="https://github.com/FabyoSK" />
             <FaGithub size={16} color="#fff" />
+            <span> GitHub</span>
           </button>
           <button className={styles.button}>
             <a href="/cv.pdf" download />
@@ -27,7 +29,7 @@ export function Hero() {
       </div>
 
       <div className={styles.heroImage}>
-        <Image src="/fsk.jpg" width={500} height={500} />
+        <Image src="/fsk.jpg" width={500} height={500} objectFit="contain" />
       </div>
     </div>
   );

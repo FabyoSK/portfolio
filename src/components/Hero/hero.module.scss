@@ -42,6 +42,10 @@
       &:hover {
         filter: brightness(0.9);
       }
+
+      span {
+        display: none;
+      }
     }
   }
   .heroImage {
@@ -51,13 +55,21 @@
       border-radius: 50%;
     }
 
+    border-radius: 50%;
     margin-right: 5rem;
   }
 }
+@media (max-width: 1024px) {
+  .hero {
+    padding: 0 2rem;
+  }
+}
+
 @media (max-width: 720px) {
   .hero {
     flex-direction: column-reverse;
     margin: 0 2rem;
+    padding: 0;
     height: unset;
 
     .heroImage {
@@ -66,6 +78,43 @@
         height: 200px;
       }
       margin: 5rem 0;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .hero {
+    .heroInfo {
+      h1 {
+        font-size: 2rem;
+        color: var(--red);
+      }
+      p {
+        font-size: 1rem;
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+
+        .button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0.25rem 0;
+
+          span {
+            margin-left: 0.25rem;
+            display: inline;
+          }
+        }
+      }
+    }
+    .heroImage {
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      margin: 3rem 0;
     }
   }
 }

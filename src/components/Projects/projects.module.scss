@@ -6,6 +6,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+@media (max-width: 1024px) {
+  .projectSection {
+    display: grid;
+
+    margin: 2rem 0;
+
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
 @media (max-width: 720px) {
   .projectSection {
     display: flex;
