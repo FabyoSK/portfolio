@@ -9,7 +9,6 @@ export function Hero() {
         <p>Hello, i'm </p>
         <h1>Fábio Alves</h1>
         <p>Front-End Developer and Mobile Developer.</p>
-
         <div className={styles.buttons}>
           <button className={styles.button}>
             <a href="https://linkedin.com/in/fabyosk" />
