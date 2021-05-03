@@ -44,9 +44,13 @@ export function Hero() {
           </div>
         </Fade>
       </div>
-      <div className={styles.heroImage}>
-        <Image src="/fsk.jpg" width={500} height={500} objectFit="cover" />
-      </div>
+      <Fade right cascade duration={2000} delay={2000}>
+        <div>
+          <div className={styles.heroImage}>
+            <Image src="/fsk.jpg" width={500} height={500} objectFit="cover" />
+          </div>
+        </div>
+      </Fade>
     </div>
   );
 }
