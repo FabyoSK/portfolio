@@ -1,5 +1,3 @@
-import Zoom from "react-reveal/Zoom";
-
 import projects from "../../../projects.json";
 
 import { ProjectCard } from "../ProjectCard";
