@@ -48,7 +48,7 @@ export function Hero() {
         <div style={{ overflow: "hidden" }}>
           <div className={styles.heroImage}>
             <Image
-              src="/fsk.jpg"
+              src="https://avatars.githubusercontent.com/u/64048314?v=4"
               width={500}
               height={500}
               objectFit="cover"
