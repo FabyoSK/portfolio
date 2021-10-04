@@ -20,7 +20,7 @@ export function Hero() {
         </h1>
 
         <Fade left cascade duration={1000} delay={2000}>
-          <p>Front-End Developer and Mobile Developer.</p>
+          <p>FullStack Software Engineer.</p>
         </Fade>
 
         <Fade bottom cascade duration={2000} delay={3000}>
