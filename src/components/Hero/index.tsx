@@ -10,7 +10,7 @@ export function Hero() {
     <main className={styles.hero}>
       <div className={styles.heroInfo}>
         <Fade left cascade duration={1000}>
-          <p>Hello, i'm</p>
+          <p>Hello, I'm</p>
         </Fade>
 
         <h1>

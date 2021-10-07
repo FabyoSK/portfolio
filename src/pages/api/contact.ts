@@ -1,4 +1,4 @@
-import nodemailer from 'nodemailer';
+const nodemailer = require("nodemailer");
 
 export default function (req, res) {
   const transporter = nodemailer.createTransport({
@@ -20,11 +20,12 @@ export default function (req, res) {
   }
 
   transporter.sendMail(mailData, (err, info) => {
-      if(err)
+      if(err) {
         console.log(err)
-      else
+      }
+      else {
         console.log(info);
-  })
-
-  res.send('success')
+      }
+    })
+    res.send('success')
 }
