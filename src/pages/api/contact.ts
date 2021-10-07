@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 
-export default function (req, res) {
+export default async function (req, res) {
   const transporter = nodemailer.createTransport({
     port: 465,     
     host: "smtp.gmail.com",
@@ -11,7 +11,6 @@ export default function (req, res) {
     secure: true,
   });
 
-  console.log(transporter)
 
   const mailData = {
       from: process.env.DEMO_EMAIL,
@@ -21,15 +20,18 @@ export default function (req, res) {
       html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`
   }
 
-  transporter.sendMail(mailData, (err, info) => {
-      console.log(err)
-      console.log(info)
-      if(err) {
-        console.log(err)
-      }
-      else {
-        console.log(info);
-      }
-    })
+  const response =  await transporter.sendMail(mailData)
+  console.log(response);
+  
   res.send('success')
 }
+
+// , (err, info) => {
+//   console.log(err)
+//   console.log(info)
+//   if(err) {
+//     console.log(err)
+//   }
+//   else {
+//     console.log(info);
+//   }
