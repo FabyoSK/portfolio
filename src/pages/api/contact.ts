@@ -1,6 +1,8 @@
 const nodemailer = require("nodemailer");
 
-export default async (req, res) => {
+export default (req, res) => {
+  try {
+
   const transporter = nodemailer.createTransport({
     port: 465,     
     host: "smtp.gmail.com",
@@ -28,4 +30,8 @@ export default async (req, res) => {
       }
     })
     res.send('success')
+  } catch (err) {
+    console.error(err);
+  }
+
 }
