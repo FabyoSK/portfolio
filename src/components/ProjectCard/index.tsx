@@ -15,6 +15,7 @@ interface ProjectCardProps {
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className={styles.projectCard}>
+      <div>
       <h2>{project.title}</h2>
       <p>{project.description}</p>
 
@@ -24,12 +25,15 @@ export function ProjectCard({ project }: ProjectCardProps) {
           return <a key={tech}>{tech}</a>;
         })}
       </div>
+      </div>
 
       <div className={styles.buttons}>
+      {project?.github_url && (
         <button className={styles.button} type="button">
           <a href={project.github_url} target="_blank"></a>
           <FaGithub size={16} color="#fff" /> GitHub
         </button>
+      )}
         {project.hasWebsite && (
           <button className={styles.button}>
             <a href={project.website} target="_blank"></a>

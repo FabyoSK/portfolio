@@ -1,6 +1,17 @@
 .projectCard {
   background: var(--foreground);
   padding: 2rem;
+  min-height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  transition: all 200ms;
+
+  &:hover  {
+    background-color: #272626;
+
+  }
 
   h2 {
     margin: 1rem 0;
@@ -38,7 +49,8 @@
 
     font-size: 1rem;
     position: relative;
-
+    transition: all 200ms;
+  
     a {
       position: absolute;
       width: 100%;
