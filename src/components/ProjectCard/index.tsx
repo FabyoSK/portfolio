@@ -8,7 +8,7 @@ interface ProjectCardProps {
     description: string;
     techs: string[];
     hasWebsite: boolean;
-    github_url: string;
+    github_url?: string;
     website?: string;
   };
 }
