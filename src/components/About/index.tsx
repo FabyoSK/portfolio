@@ -13,7 +13,7 @@ export function About() {
           <p>
             I'm completely in love with tech, learning at the speed of light,
             surfing lines of code to overcome challenges, with lots of energy
-            and fun, to this day I remember my first hello world, when the
+            and fun, to this day I remember my first "hello world", when the
             program compiled and "hello world" appeared on the screen I thought
             "Wow I am a hacker", one of the best sensation of my life.
           </p>

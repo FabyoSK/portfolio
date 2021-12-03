@@ -1,5 +1,28 @@
 [
   {
+    "title": "ig.news",
+    "description": "A Blog built using Next.js, processing Payments with Stripe, and using Next-Auth along Github Auth to provide Authentication, using Prismic as CMS",
+    "techs": ["ReactJS", "Next.js", "Prismic", "Github Auth", "Stripe", "Next Auth" ],
+    "hasWebsite": true,
+    "github_url": "https://github.com/FabyoSK/ig.news",
+    "website": "http://ignews-fsk.vercel.app/"
+  },
+  {
+    "title": "Samba",
+    "description": "Built using ReactJS, With focus on UI and UX, to provide the best user experience, And the Backend, built with Node.js, with focus on Speed, Performance and scalability",
+    "techs": ["ReactJS", "Material UI", "Redux"],
+    "hasWebsite": true,
+    "website": "https://samba.chuva.io"
+  },
+  {
+    "title": "Rainny Chat",
+    "description": "A realtime chat app, build using the MERN stack",
+    "techs": ["ReactJS", "Next.js"],
+    "hasWebsite": true,
+    "github_url": "https://github.com/FabyoSK/be-the-hero-web",
+    "website": "http://be-the-hero-fsk.vercel.app/"
+  },
+  {
     "title": "Be The Hero",
     "description": "Be the hero is a project who will help a carity ONG",
     "techs": ["ReactJS", "Next.js"],
