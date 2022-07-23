@@ -15,7 +15,7 @@
     "website": "https://samba.chuva.io"
   },
   {
-    "title": "Rainny Chat",
+    "title": "SKStore",
     "description": "This API is built using Node and Express, we are using PostgreSQL as database and Redis as in-memory database.",
     "techs": ["Flutter", "Node.js", "Redis", "PostgreSQL", "Docker"],
     "hasWebsite": true,
