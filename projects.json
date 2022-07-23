@@ -16,11 +16,11 @@
   },
   {
     "title": "Rainny Chat",
-    "description": "A realtime chat app, build using the MERN stack",
-    "techs": ["ReactJS", "Next.js"],
+    "description": "This API is built using Node and Express, we are using PostgreSQL as database and Redis as in-memory database.",
+    "techs": ["Flutter", "Node.js", "Redis", "PostgreSQL", "Docker"],
     "hasWebsite": true,
-    "github_url": "https://github.com/FabyoSK/be-the-hero-web",
-    "website": "http://be-the-hero-fsk.vercel.app/"
+    "github_url": "https://github.com/FabyoSK/sksstore-api",
+    "website": "https://github.com/FabyoSK/sksstore"
   },
   {
     "title": "Be The Hero",
